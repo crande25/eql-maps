@@ -8,15 +8,11 @@ reflect what the zone actually contains rather than a hand-traced approximation.
 
 ## Installing
 
-**Don't drop these loose into the client's `maps` folder.** EverQuest rewrites around
-a hundred default zone maps every time it starts, and the patcher re-downloads its own
-map files on top of that. Anything custom sitting directly in `maps\` eventually gets
-overwritten, and labels frequently end up duplicated.
-
-Put them in a map pack subfolder instead — the same way the community distributes
-[Brewall's](https://www.eqmaps.info/eq-map-files/) and
-[Good's](https://github.com/RedGuides/goodurden-maps) packs. Subfolders are left alone
-by the patcher, and the client lets you switch between them in game.
+Add these maps to a map pack subfolder — most players keep custom maps in a bundle
+like [Brewall's](https://www.eqmaps.info/eq-map-files/) or
+[Good's](https://github.com/RedGuides/goodurden-maps) rather than loose in the
+client's top-level `maps` folder, and each subfolder appears as its own selectable
+map set in game.
 
 1. Find your EverQuest `maps` folder. It's typically at
    `C:\Users\Public\Daybreak Game Company\Installed Games\EverQuest\maps\`
