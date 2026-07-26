@@ -1,0 +1,17 @@
+# Game assets — never commit these. They are copyrighted client data,
+# not ours to redistribute. Only the derived .txt maps belong in this repo.
+*.s3d
+*.eqg
+*.wld
+*.dds
+*.bmp
+
+# Build output from map-generation tooling
+*.exe
+*.pdb
+*.png
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
